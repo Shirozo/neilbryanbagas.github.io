@@ -1,14 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <title>Shirozo</title>
 </head>
-<body>
-    <h1>Hello world</h1>
-    <h2>There's Nothing Here! Under Construction pa</h2>
 
-    <a href="webdev-activiy.html">Activity</a>
+<body>
+    <div class="container">
+        <nav class="navigation">
+            <div class="left-nav">
+                <p>Shirozo</p>
+            </div>
+            <div class="right-nav">
+                <ul class="right-nav-list">
+                    <li class="nav-content">
+                        <a href="" class="scroll-link">Home</a>
+                    </li>
+                    <li class="nav-content">
+                        <a href="#gallery" class="scroll-link">Gallery</a>
+                    </li>
+                    <li class="nav-content">
+                        <a href="#about-me" class="scroll-link">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="home">
+            <div class="home-left-content">
+                <h1>Hi There!</h1>
+                <h1>I'm Neil Bryan Bagas</h1>
+                <h3>An aspiring Software Engineer</h3>
+                <div class="button-about">
+                    <a href="#about-me" class="scroll-link"><i class="fa fa-arrow-down"> About Me</i></a>
+                </div>
+                <div class="links">
+                    <a href="www.facebook.com/Im.Youare.Weall.gonnadie" class="links-data">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shirozo/" class="links-data">
+                        <i class="fa-brands fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://github.com/Shirozo" class="links-data">
+                        <i class="fa-brands fa-github fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="home-right-content">
+                <img src="avatar.png" alt="" height="400px" class="avatar">
+            </div>
+        </div>
+        <hr>
+        <div class="gallery" id="gallery">
+            <h1>Gallery</h1>
+            <div class="gallery-container">
+                <div class="gallery-content">
+                    <div class="slider">
+                        <figure>
+                            <img src="vms/1.png">
+                            <img src="vms/2.png">
+                            <img src="vms/3.png">
+                        </figure>
+                    </div>
+                    <div class="gallery-data">
+                        <h3 class="gallery-title">Voting Management System</h3>
+                        <a href="https://github.com/CSSO-Linux-User-Group-ESSU/School-Voting-System"
+                            class="project-link"><i class="fa fa-link"></i> Django</a>
+                        <a href="https://github.com/Shirozo/SVMS-Laravel" class="project-link"><i
+                                class="fa fa-link"></i>
+                            Laravel</a>
+                        <p class="gallery-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                            survived not only five centuries, but also the leap into electronic typesetting, remaining
+                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                            containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                            Aldus
+                            PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+                <div class="gallery-content">
+                    <div class="slider">
+                        <figure>
+                            <img src="nlp/1.png">
+                            <img src="nlp/2.png">
+                        </figure>
+                    </div>
+                    <div class="gallery-data">
+                        <h3 class="gallery-title">Warar-Waray POS Tagger NLP</h3>
+                        <a href="https://github.com/CSSO-Linux-User-Group-ESSU/Waray-Waray-NLP-POS-Tagger"
+                            class="project-link"><i class="fa fa-link"></i> Link Here</a>
+                        <p class="gallery-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                            survived not only five centuries, but also the leap into electronic typesetting, remaining
+                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                            containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                            Aldus
+                            PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+                <div class="gallery-content">
+                    <div class="slider">
+                        <figure>
+                            <img src="diocese/1.png">
+                            <img src="diocese/2.png">
+                            <img src="diocese/3.png">
+                        </figure>
+                    </div>
+                    <div class="gallery-data">
+                        <h3 class="gallery-title">Diocese Financial Management System</h3>
+                        <p class="gallery-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                            survived not only five centuries, but also the leap into electronic typesetting, remaining
+                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                            containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                            Aldus
+                            PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+                <div class="gallery-content">
+                    <div class="slider">
+                        <figure>
+                            <img src="bctt/1.png">
+                            <img src="bctt/2.png">
+                        </figure>
+                    </div>
+                    <div class="gallery-data">
+                        <h3 class="gallery-title">Borongan City Transport Terminal QR</h3>
+                        <p class="gallery-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                            survived not only five centuries, but also the leap into electronic typesetting, remaining
+                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                            containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                            Aldus
+                            PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="about-me" id="about-me">
+            <div class="about-left">
+                <div class="personal-info about-container">
+                    <img src="logo.png" alt="" class="profile">
+                    <h2>Neil Bryan Bagas</h2>
+                    <p id="title">Backend Developer</p>
+                    <p>
+                        <i class="fa fa-location-dot"></i>
+                        Maydolong, Philippines
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope"></i>
+                        neilbryancaranzo123@gmail.com
+                    </p>
+                    <p>
+                        <i class="fa fa-school"></i>
+                        BS in Computer Science, ESSU - Main Campus
+                    </p>
+                    <div class="links" style="margin-top: 10px;margin-bottom: 10px;">
+                        <a href="www.facebook.com/Im.Youare.Weall.gonnadie">
+                            <i class="fa-brands fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/shirozo/">
+                            <i class="fa-brands fa-linkedin-in fa-2x"></i>
+                        </a>
+                        <a href="https://github.com/Shirozo">
+                            <i class="fa-brands fa-github fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="skills about-container">
+                    <h3>Skills</h3>
+                    <div class="skill-data">
+                        <p>Python</p>
+                        <p>PHP</p>
+                        <p>Django</p>
+                        <p>Laravel</p>
+                        <p>JS</p>
+                        <p>SQL</p>
+                        <p>Linux</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-right">
+                <div class="about-me-content about-container">
+                    <h1 class="right-title">About Me</h1>
+                    <p>Hello! I'm Neil Bryan Bagas, a passionate full backend developer with 1 year of experience in building web
+                        applications. I thrive on solving complex problems and am always eager to learn new
+                        technologies. My expertise lies in creating scalable, efficient, and user-friendly applications
+                        using modern web technologies. I prefered developing the backend of an application over frontend.</p>
+
+                    <p>
+                        Outside of coding, I train taekwondo sometimes and an avid online gamer. I'm
+                        also a sci-fi enthusiast and also watch all those sci-fi movie especially about space. My
+                        passion project is developing an open-source project towards automation of previous manual task.
+                    </p>
+                </div>
+                <div class="work-experience about-container">
+                    <h1 class="right-title">Work Experience</h1>
+                    <i class="fa fa-briefcase fa-2xl" style="float: left;margin-top:10px;"></i>
+                    <h3 style="margin-left: 50px;margin-bottom:5px;">Software Developer Intern</h3>
+                    <p class="work-company">OptoGrow Management Solution | May 2024 - August 2024</p>
+                    <ul class="work-done">
+                        <li>Handles the development of workflow and automation using GHL.</li>
+                        <li>Consultant for problem that requires coding expertise/understanding.</li>
+                        <li>Completed 400hrs internship.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </body>
+<footer>
+    <p>&copy; Neil Bryan Bagas</p>
+</footer>
+<script>
+    document.querySelectorAll('.scroll-link').forEach(link => {
+        link.addEventListener('click', function (event) {
+            event.preventDefault();  // Prevent the default link click behavior
+
+            const target = document.querySelector(this.getAttribute('href'));
+
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
+    });
+
+</script>
+
 </html>
